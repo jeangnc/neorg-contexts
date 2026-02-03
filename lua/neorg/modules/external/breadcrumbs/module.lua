@@ -102,7 +102,7 @@ module.private = {
     for i, segment in ipairs(segments) do
       if i > 1 then
         line = line .. " ❯ "
-        col = col + 3
+        col = col + 5
       end
       local start_col = col
       line = line .. segment
